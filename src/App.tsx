@@ -32,7 +32,7 @@ function App() {
             <S.GroupVideo>
               <h1>Desktop Fish</h1>
               <S.Video autoPlay loop muted>
-                <source src="src/assets/Timeline_33.mp4" type="video/mp4" />
+                <source src="public/Timeline_33.mp4" type="video/mp4" />
                 Seu navegador não suporta a tag de vídeo.
               </S.Video>
             </S.GroupVideo>
