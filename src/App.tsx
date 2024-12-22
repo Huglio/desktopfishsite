@@ -39,7 +39,7 @@ function App() {
             <button onClick={() => handleClickDownload(url)}>Download Now</button>
             <h5>Apoie nosso desenvolvimento!</h5>
             <p>
-              O dinheiro arrecadado do DesktopFish será destinado ao nosso projeto principal: ProjectTerror{' '}
+              O dinheiro arrecadado do DesktopFish será destinado ao nosso projeto principal:{' '}
               <a href={url.urlInstagram} target="blank">
                 Project Terror
               </a>
@@ -61,7 +61,7 @@ function App() {
             <button onClick={() => handleClickDownload(url)}>Download Now</button>
             <h5>Apoie nosso desenvolvimento!</h5>
             <p>
-            O dinheiro arrecadado do DesktopFish será destinado ao nosso projeto principal: ProjectTerror{' '}
+              O dinheiro arrecadado do DesktopFish será destinado ao nosso projeto principal:{' '}
               <a href={url.urlInstagram} target="blank">
                 Project Terror
               </a>
