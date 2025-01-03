@@ -12,7 +12,7 @@ interface iUrl {
 function App() {
   const url: iUrl = {
     urlDownload:
-      'https://desktopfishapp.s3.us-east-1.amazonaws.com/DesktopFishInstaller.exe',
+      'https://desktopfish.com/download',
     urlInstagram: 'https://www.instagram.com/eusolyy/',
     email: 'mailto:eusolodev@gmail.com',
     site: 'http://www.eusolyy.com/',
