@@ -12,7 +12,7 @@ interface iUrl {
 function App() {
   const url: iUrl = {
     urlDownload:
-      'https://dkt5g9ycgq2sj.cloudfront.net/desktopfish.exe',
+      'https://dyxrglay7x6x5.cloudfront.net/desktopfish.exe',
     urlInstagram: 'https://www.instagram.com/eusolyy/',
     email: 'mailto:eusolodev@gmail.com',
     site: 'http://www.eusolyy.com/',
