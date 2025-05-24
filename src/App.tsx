@@ -44,9 +44,6 @@ function App() {
                 Project Terror
               </a>
             </p>
-            <p>
-              O dinheiro 
-            </p>
           </S.Apresentation>
         </S.ContentGroup>
       </S.MainContent>
