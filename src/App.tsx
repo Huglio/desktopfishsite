@@ -36,7 +36,7 @@ function App() {
                 Seu navegador não suporta a tag de vídeo.
               </S.Video>
             </S.GroupVideo>
-            <button onClick={() => handleClickDownload(url)}>Baixe agora</button>
+            <button onClick={() => handleClickDownload(url)}>Baixar para Windows</button>
             <h5>E cuide do seu peixinho!</h5>
             <p>
               Compre para apoiar o desenvolvimento de {' '}
@@ -58,7 +58,7 @@ function App() {
         <S.ContentGroup>
           <S.Apresentation>
             <h1>Desktop Fish</h1>
-            <button onClick={() => handleClickDownload(url)}>Baixe agora</button>
+            <button onClick={() => handleClickDownload(url)}>Baixar para Windows</button>
             <h5>Cuide do seu peixinho na versão Beta!</h5>
             <p>
               Compre para apoiar o desenvolvimento de {' '}
