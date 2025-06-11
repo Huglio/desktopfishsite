@@ -31,7 +31,7 @@ function App() {
           <S.Apresentation>
             <S.GroupVideo>
               <h1>Desktop Fish</h1>
-              <S.Video autoPlay loop muted>
+              <S.Video autoPlay muted loop playsInline>
                 <source src="Timeline_33.mp4" type="video/mp4" />
                 Seu navegador não suporta a tag de vídeo.
               </S.Video>
@@ -68,7 +68,7 @@ function App() {
             </p>
           </S.Apresentation>
 
-          <S.Video autoPlay loop muted>
+          <S.Video autoPlay muted loop playsInline>
             <source src="Timeline_33.mp4" type="video/mp4" />
             Seu navegador não suporta a tag de vídeo.
           </S.Video>

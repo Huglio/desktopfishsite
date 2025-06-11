@@ -130,6 +130,7 @@ export const Video = styled.video`
   height: 80vh;
   border-radius: 1.875rem;
   object-fit: cover;
+  pointer-events: none;
 
   @media (max-width: 1440px) {
     width: 40vw;
