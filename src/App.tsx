@@ -37,13 +37,18 @@ function App() {
               </S.Video>
             </S.GroupVideo>
             <button onClick={() => handleClickDownload(url)}>Baixar para Windows</button>
-            <h5>E cuide do seu peixinho!</h5>
-            <p>
-              Compre para apoiar o desenvolvimento de {' '}
-              <a href={url.urlInstagram} target="blank">
-                Project Terror
-              </a>
-            </p>
+            <h5>Cuide do seu peixinho na versão Beta!</h5>
+            <p style={{ fontSize: '0.875rem', color: 'white', marginTop: '0.5rem' }}>
+             Ao baixar, você concorda com os{' '}
+             <a
+               href="/terms.html"
+               target="_blank"
+               rel="noopener noreferrer"
+               style={{ textDecoration: 'underline', color: '#f9c458' }}
+             >
+               termos de uso
+             </a>.
+           </p>
           </S.Apresentation>
         </S.ContentGroup>
       </S.MainContent>
@@ -59,13 +64,24 @@ function App() {
           <S.Apresentation>
             <h1>Desktop Fish</h1>
             <button onClick={() => handleClickDownload(url)}>Baixar para Windows</button>
-            <h5>Cuide do seu peixinho na versão Beta!</h5>
-            <p>
-              Compre para apoiar o desenvolvimento de {' '}
+             <h5>Cuide do seu peixinho na versão Beta!</h5>
+            <p style={{ fontSize: '0.875rem', color: 'white', marginTop: '0.5rem' }}>
+             Ao baixar, você concorda com os{' '}
+             <a
+               href="/terms.html"
+               target="_blank"
+               rel="noopener noreferrer"
+               style={{ textDecoration: 'underline', color: '#f9c458' }}
+             >
+               termos de uso
+             </a>.
+           </p>
+            {/* <p>
+              Apoie o desenvolvimento de {' '}
               <a href={url.urlInstagram} target="blank">
                 Project Terror
               </a>
-            </p>
+            </p> */}
           </S.Apresentation>
 
           <S.Video autoPlay muted loop playsInline>
